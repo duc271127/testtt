@@ -40,4 +40,20 @@
         </repository>
     </distributionManagement>
 
+<dependency>
+    <groupId>github.tobsef</groupId>
+    <artifactId>hello-maven</artifactId>
+    <version>1.2.1</version>
+</dependency>
+
+<repositories>
+    <repository>
+        <id>github</id>
+        <name>GitHub TobseF Apache Maven Packages</name>
+        <url>https://maven.pkg.github.com/TobseF/HelloMaven</url>
+        <releases><enabled>true</enabled></releases>
+        <snapshots><enabled>true</enabled></snapshots>
+    </repository>
+</repositories>
+
 </project>
